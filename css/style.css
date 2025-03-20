@@ -1,0 +1,78 @@
+div, span, button, a, p {
+    font-family: "Comic Sans MS";
+    font-weight: 500;
+    font-size: 20px;
+}
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+}
+.menu {
+    width: 20vw;
+    height: 100vh;
+    background-color: #5000d1;
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #8539ff;
+    width: 19vw;
+    height: 15vh;
+    border-radius: 10px;
+}
+.menu__item p {
+    display: block;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.tab {
+    display: none;
+}
+.active {
+    display: block;
+}
+.floatBorder {
+    overflow: hidden;
+    justify-self: center;
+    height: 512px;
+    width: 512px;
+    border: 15px double #9e5d32;
+    animation: ava-animate 8s infinite alternate;
+}
+.home__text {
+    justify-self: center;
+}
+@keyframes ava-animate {
+    0% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+    40% {
+        border-radius: 41% 59% 47% 53% / 75% 88% 12% 25%;
+    }
+    60% {
+        border-radius: 11% 89% 10% 90% / 9% 89% 9% 89%;
+    }
+    80% {
+        border-radius: 90% 10% 90% 10% / 89% 9% 89% 8%;
+    }
+    100% {
+        border-radius: 8% 92% 27% 73% / 41% 36% 64% 59%;
+    }
+}

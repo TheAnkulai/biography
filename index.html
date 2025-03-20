@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Биография студента Стрижко</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menu__item" onclick="openTab('home')">
+                <p>Главная</p>
+            </div>
+            <div class="menu__item" onclick="openTab('location')">
+                <p>Детство</p>
+            </div>
+            <div class="menu__item" onclick="openTab('school')">
+                <p>Школа</p>
+            </div>
+            <div class="menu__item" onclick="openTab('college')">
+                <p>Колледж</p>
+            </div>
+            <div class="menu__item" onclick="openTab('hobby')">
+                <p>Увлечения</p>
+            </div>
+            <div class="menu__item" onclick="openTab('dream')">
+                <p>Мечта</p>
+            </div>
+        </div>
+    
+        <div class="content">
+            <div id="home" class="tab active">
+                <div class="floatBorder">
+                    <img src="images/1.webp" alt="я">
+                </div>
+                <div class="home__text">
+                    <h2>Стрижко Евгений Алексеевич</h2>
+                    <p>Выберите куда хотите переместиться.</p>
+                </div>
+            </div>
+            <div id="location" class="tab">
+                <h2>Местоположение</h2>
+                <p>Я родился в городе Смоленск...</p>
+            </div>
+            <div id="school" class="tab">
+                <h2>Школа</h2>
+                <p>Я учусь в школе №...</p>
+            </div>
+            <div id="college" class="tab">
+                <h2>Колледж</h2>
+                <p></p>
+            </div>
+            <div id="hobby" class="tab">
+                <h2>Увлечения</h2>
+                <p>Я увлекаюсь английским, футболом и программированием.</p>
+            </div>
+            <div id="dream" class="tab">
+                <h2>Мечта</h2>
+                <p>Я хочу стать профессиональным футболистом...</p>
+            </div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
