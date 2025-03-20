@@ -44,6 +44,13 @@ body {
 }
 .tab {
     display: none;
+    
+}
+.tab h2 {
+    font-size: 50px;
+}
+.tab p {
+    font-size: 30px;
 }
 .active {
     display: block;
